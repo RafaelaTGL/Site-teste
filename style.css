@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+body {
+    background-image: url(images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+}
+
+.svg {
+    /* seus estilos existentes */
+    margin-bottom: 0; /* Remove a margem inferior */
+}
+
+.lista {
+    position: relative;
+    font-style: none;
+    color: aliceblue;
+    list-style-type: none;
+    font-size: 40px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 5px;
+    margin-top: 0; /* Remove a margem superior */
+}
+
+.lista ol li {
+    list-style: none;
+    padding: 10px;
+    margin: 0; /* Remove a margem dos itens da lista */
+}
+
+.lista ol li a {
+    text-decoration: none;
+    color: rgb(73, 0, 95);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.lista ol:hover {
+    background-color: #000000;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.ovini .ovinii {
+    height: 300px;
+    margin-top: 0; /* Remove a margem superior */
+}
